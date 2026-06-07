@@ -51,26 +51,7 @@ touch "$PROJECT_NAME/requirements.txt"
 touch "$PROJECT_NAME/Dockerfile"
 touch "$PROJECT_NAME/docker-compose.yml"
 
-# 6. Populate default .gitignore file
-cat <<EOT > "$PROJECT_NAME/.gitignore"
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Environments
-.venv/
-venv/
-ENV/
-env/
-
-# Configuration
-.env
-
-# IDEs
-.vscode/
-.idea/
-EOT
+# 6. Don't populate default .gitignore file
 
 # 7. Populate a basic requirements.txt file
 cat <<EOT > "$PROJECT_NAME/requirements.txt"
@@ -84,4 +65,3 @@ EOT
 
 echo "✅ Project '$PROJECT_NAME' successfully initialized!"
 echo "👉 Run 'cd $PROJECT_NAME' to get started."
-
