@@ -4,7 +4,7 @@
 set -e
 
 # Define root project directory name
-PROJECT_NAME="corporate_fastapi_app"
+PROJECT_NAME="generic_fastapi_app"
 
 echo "🚀 Creating FastAPI project structure for: $PROJECT_NAME"
 
