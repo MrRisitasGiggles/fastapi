@@ -1,4 +1,4 @@
-# Corporate Credit Balance Sheet Forecasting
+# Generic FAST API project
 
 <!-- Badges go here (e.g., build status, license, version) -->
 [![MIT License](https://shields.io)](https://choosealicense.com)
